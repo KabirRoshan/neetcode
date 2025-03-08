@@ -20,7 +20,7 @@ Write an efficient algorithm for the following assumptions:
 
 function solution(A) {
   // Filter for number greater than 0 and sort in ascending order
-  let positiveNumbers = A.filter(x => x > 0).sort((a,b) => a -b);
+  let positiveNumbers = A.filter(x => x > 0).sort((a,b) => a - b);
   // set initial to 1
   let smallestNumber = 1;
 
